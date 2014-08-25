@@ -20,7 +20,7 @@ Usage
 =====
 YoPy works with any version of Python, as long as it supports Requests.<br/>
 Here is a Python 2 example :
-
+<code>
 	import yopy
 
 	token = <your_api_token>
@@ -31,6 +31,6 @@ Here is a Python 2 example :
 	print yo.number()
 	yo.yoall(link)
 	yo.youser(username, link)
-
+</code>
 Parth Dhar<br/>
 2014
