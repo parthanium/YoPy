@@ -14,12 +14,13 @@ YoPy requires a Yo! API access token. You can get one by registering at http://d
 
 Dependencies
 ============
-YoPy requires the module requests. Get it from http://docs.python-requests.org/
+YoPy requires the module Requests. Get it from http://docs.python-requests.org/
 
 Usage
 =====
-YoPy works with any version of Python, as long as it supports Requests.
+YoPy works with any version of Python, as long as it supports Requests.<br/>
 Here is a Python 2 example :
+
 	import yopy
 
 	token = <your_api_token>
@@ -31,5 +32,5 @@ Here is a Python 2 example :
 	yo.yoall(link)
 	yo.youser(username, link)
 
-Parth Dhar
+Parth Dhar<br/>
 2014
