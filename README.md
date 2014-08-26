@@ -20,19 +20,17 @@ Usage
 =====
 YoPy works with any version of Python, as long as it supports Requests.<br/>
 Here is a Python 2 example :
-<code>
 
-import yopy
+	import yopy
 
-token = <your_api_token>
-username = "PARTHDHAR"
-link = "https://github.com/espice/YoPy"
+	token = <your_api_token>
+	username = "PARTHDHAR"
+	link = "https://github.com/espice/YoPy"
 
-yo = yopy.Yo(token)
-print yo.number()
-yo.yoall(link)
-yo.youser(username, link)
-</code>
+	yo = yopy.Yo(token)
+	print yo.number()
+	yo.yoall(link)
+	yo.youser(username, link)
 
 Parth Dhar<br/>
 2014
