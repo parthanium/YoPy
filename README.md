@@ -16,6 +16,10 @@ Dependencies
 ============
 YoPy requires the module Requests. Get it from http://docs.python-requests.org/
 
+Installation
+============
+To install, simple copy <code>yopy.py</code> to the <code>Lib</code> folder of your Python installation.
+
 Usage
 =====
 YoPy works with any version of Python, as long as it supports Requests.<br/>
