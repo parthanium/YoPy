@@ -29,7 +29,7 @@ Here is a Python 2 example :
 
 	token = <your_api_token>
 	username = "PARTHDHAR"
-	link = "https://github.com/espice/YoPy"
+	link = "https://github.com/parthanium/YoPy"
 
 	yo = yopy.Yo(token)
 	print yo.number()
