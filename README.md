@@ -38,3 +38,7 @@ Here is a Python 2 example :
 
 Parth Dhar<br/>
 2014
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/parthanium/yopy/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
