@@ -1,7 +1,7 @@
 YoPy
 ====
 
-A simple Yo! API for python.
+Python wrapper for the Yo! API
 
 As of now, you can:
 <ol>
