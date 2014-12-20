@@ -29,7 +29,7 @@ class Yo:
 		number_url = "http://api.justyo.co/subscribers_count/?api_token=" + self.token
 		number = requests.get(number_url)
 		if number.status_code == requests.codes.ok:
-		    return number.json()["result"]
+		    return number.json()["count"]
 		else:
 			number.raise_for_status()
 
