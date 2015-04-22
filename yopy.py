@@ -33,6 +33,21 @@ class Yo:
 		else:
 			number.raise_for_status()
 
+	def check_username(self, username):
+		"""
+		Function to GET if an username exists.
+		Returns if the userneme exists as a boolean.
+		If request is unsuccessful, raises an error.
+		"""
+		check_url = "http://api.justyo.co/check_username/"
+		username = username.upper()
+		check_data = {"api_token": self.token, "username": username}
+		result = requests.get(check_url, data=check_data)
+		if result.status_code == requests.codes.ok:
+		    return result.json()["exists"]
+		else:
+			yoall.raise_for_status()
+
 	def yoall(self, *link):
 		"""
 		Function to send a Yo to all subscribers of the API user account.
